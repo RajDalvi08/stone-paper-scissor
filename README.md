@@ -1,139 +1,151 @@
-🪨📄✂️ Stone Paper Scissor
+# 🪨📄✂️ **STONE PAPER SCISSOR GAME**
 
-A single-player Stone-Paper-Scissor game built using HTML, CSS, and JavaScript.
-The player competes against the computer, which generates a random move each round.
+A **single-player Stone-Paper-Scissor game** built using **HTML, CSS, and JavaScript**, where the user competes against the computer in a fun and interactive way.
 
-This project demonstrates core JavaScript concepts including DOM manipulation, event handling, and conditional game logic.
+This project focuses on **core frontend fundamentals** like **DOM manipulation, event handling, and conditional logic**, making it perfect for beginners and portfolio showcasing.
 
-🎮 Gameplay
+---
 
-The user selects Stone, Paper, or Scissor
+## 🎮 **GAMEPLAY**
 
-The computer randomly generates its move
+* The user selects **Stone 🪨, Paper 📄, or Scissor ✂️**
 
-The result is displayed instantly:
+* The computer generates a **random move each round**
 
-✅ You Win
+* The result is displayed instantly:
 
-❌ Computer Wins
+  * ✅ **You Win**
+  * ❌ **Computer Wins**
+  * 🤝 **It's a Draw**
 
-🤝 It's a Draw
+* Scores update **dynamically after every round**
 
-Scores update dynamically after every round
+---
 
-🧠 Game Rules
+## 🧠 **GAME RULES**
 
-🪨 Stone beats Scissor
+* 🪨 **Stone beats Scissor**
+* 📄 **Paper beats Stone**
+* ✂️ **Scissor beats Paper**
+* 🤝 Same choice = **Draw**
 
-📄 Paper beats Stone
+---
 
-✂️ Scissor beats Paper
+## ✨ **FEATURES**
 
-Same choice = Draw
+* 🤖 **Single Player vs Computer**
+* 🎲 **Randomized Computer Choice**
+* 📊 **Live Score Tracking System**
+* ⚡ **Instant Result Display**
+* 🎨 **Clean & Responsive UI Design**
+* 🖼️ **Custom Images for Game Choices**
+* 🚀 **Fast and Lightweight (No frameworks used)**
 
-✨ Features
+---
 
-🤖 Single Player vs Computer
+## 🛠️ **TECH STACK**
 
-🎲 Randomized Computer Choice
+* **HTML5** – Structure
+* **CSS3** – Styling & Layout
+* **JavaScript (Vanilla JS)** – Game Logic
 
-📊 Live Score Tracking
+👉 No frameworks. No libraries. Pure frontend development.
 
-⚡ Instant Result Display
+---
 
-🎨 Clean and Responsive UI
+## 📂 **PROJECT STRUCTURE**
 
-🖼️ Custom Images for Game Choices
-
-🛠️ Tech Stack
-
-HTML5 – Structure
-
-CSS3 – Styling & Layout
-
-JavaScript – Game Logic
-
-No frameworks. No libraries. Pure frontend fundamentals.
-
-📂 Project Structure
+```
 stone-paper-scissor/
 │
-├── index.html      # Main HTML structure
-├── styles.css      # Styling
-├── map.js          # Game logic
-├── rock.png        # Rock image
-├── paper.png       # Paper image
-├── scissor.png     # Scissor image
+├── index.html        # Main HTML structure
+├── styles.css        # Styling
+├── map.js            # Game logic
+├── rock.png          # Rock image
+├── paper.png         # Paper image
+├── scissor.png       # Scissor image
 └── README.md
+```
 
-⚙️ How It Works (Logic Overview)
+---
 
-Event listeners detect user selection.
+## ⚙️ **HOW IT WORKS (LOGIC OVERVIEW)**
 
-Computer choice is generated using:
+* Event listeners detect **user selection**
+* Computer choice is generated using:
 
+```javascript
 Math.floor(Math.random() * 3)
+```
 
+* Conditional statements determine:
 
-Conditional statements determine:
+  * Win ✅
+  * Loss ❌
+  * Draw 🤝
 
-Win
+* Score values are updated dynamically using the **DOM**
 
-Loss
+---
 
-Draw
+## 🧪 **RUN LOCALLY**
 
-Score values are updated in the DOM dynamically.
+### 1️⃣ Clone the Repository
 
-🧪 Run Locally
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/RajDalvi08/stone-paper-scissor.git
+```
 
-2️⃣ Open the project
+### 2️⃣ Navigate to Project Folder
+
+```bash
 cd stone-paper-scissor
+```
 
-3️⃣ Launch the game
+### 3️⃣ Launch the Game
 
-Open index.html in your browser.
+Open `index.html` in your browser.
 
-No dependencies required ✅
+👉 No dependencies required ✅
 
+---
 
-🎯 Learning Outcomes
+## 🎯 **LEARNING OUTCOMES**
 
-This project helped reinforce:
+This project helps in understanding:
 
-DOM Selection & Manipulation
+* DOM Selection & Manipulation
+* Event Handling in JavaScript
+* Random Number Generation
+* Conditional Game Logic
+* State & Score Management
+* UI/UX Structuring Basics
 
-Event Handling in JavaScript
+---
 
-Random Number Generation
+## 📈 **FUTURE ENHANCEMENTS**
 
-Conditional Game Logic
+* 🔊 Sound Effects
+* 🎞️ Animations & Smooth Transitions
+* 🌙 Dark / Light Mode
+* 🧠 AI Difficulty Levels
+* 🏆 Match History Tracking
+* 📱 Advanced Mobile Responsiveness
 
-Score State Management
+---
 
-Basic UI/UX structuring
+## 👨‍💻 **AUTHOR**
 
-🔮 Future Enhancements
+**Raj Dalvi**
+🔗 GitHub: https://github.com/RajDalvi08
 
-🔊 Sound Effects
+---
 
-🎞️ Animations & Transitions
+## 📄 **LICENSE**
 
-🌙 Dark / Light Mode
+This project is licensed under the **MIT License**.
 
-🧠 AI Difficulty Levels
+---
 
-🏆 Match History Tracking
+💡 **Note:** This project is a great demonstration of **JavaScript fundamentals + interactive UI design**, making it ideal for beginners and strong for portfolio presentation.
 
-📱 Enhanced Mobile Optimization
-
-👨‍💻 Author
-
-Raj Dalvi
-GitHub: https://github.com/RajDalvi08
-
-📄 License
-
-This project is licensed under the MIT License.
